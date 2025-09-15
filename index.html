@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gatech Home</title>
+  <meta content="GATECH INTEGRATED SERVICES aspires to be your information technology department. We provide end-to-end IT assistance by working as an extension of your team, addressing everything from daily activities to strategic consulting needs" name="description">
+  <meta content="it, web dev, security check, configurations, home automation" name="keywords">
+  <link href="assets/img/favico.png" rel="icon">
+  <link href="assets/img/favico.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+      </a>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li class="dropdown scrollto"><a href="http://academy.gatechinfo.com/"><span> Academy</span></a>
+          </li>
+          <li class="dropdown scrollto"><a href="#"><span> Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="tech/">Website Design & Development</a></li>
+              <li><a href="network">Network Design</a></li>
+              <li><a href="desktop">Desktop Roll-Out & Migration</a></li>
+              <li><a href="it">IT Procurement Services</a></li>
+              <li><a href="sschecks">Safety & Security Checks</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+    </div>
+  </header>
+
+  <section id="hero" class="hero d-flex align-items-center" style="background: url(assets/img/bg.jpg);background-size: cover;">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">We Provide IT & Business Solutions</h1>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+  <main id="main">
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are</h3>
+              <h2>We Offer Professional Services</h2>
+                <h6>MISSION</h6>
+                <span>To create dependable services and versatile cutting-edge solutions for all industries and lifestyles, while providing personalized services and unparalleled support.</span> 
+                  <br><br>
+                <h6>VISION</h6> 
+                <span>To be preferred innovative technology solution company providing seamless solutions and integrated technology to enhance productivity and profitability.</span> 
+              <div class="text-center text-lg-start mt-5">
+                <a href="about.html" class="btn-read-more mt-3">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Services</h2>
+          <p>We Provide A Wide Range Of IT Services</p>
+        </header>
+    </div>
+     <div id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+  
+            <div class="row">
+  
+                <div class="col-lg-2 col-6" onclick="webdev()">
+                    <div class="count-box"  id="box1">
+                        <img src="assets/img/features.png" alt="web dev">
+                        <div>
+                        <h4>Web Dev.</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-lg-2 col-6" onclick="home_automate()">
+                    <div class="count-box" id="box2">
+                        <img src="assets/img/features2.png" alt="web dev">
+                        <div>
+                        <h4>Home Automation</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-lg-2 col-6" onclick="network_config()">
+                    <div class="count-box" id="box3">
+                        <img src="assets/img/features3.png" alt="web dev">
+                        <div>
+                        <h4>Network Configs</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-lg-2 col-6" onclick="desktop_migrate()">
+                    <div class="count-box" id="box4">
+                        <img src="assets/img/features4.png" alt="web dev">
+                        <div>
+                        <h4>Desktop Migration</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-lg-2 col-6" onclick="it_service()">
+                    <div class="count-box" id="box5">
+                        <img src="assets/img/features5.png" alt="web dev">
+                        <div>
+                        <h4>I.T Services</h4>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-lg-2 col-6" onclick="sschecks()">
+                    <div class="count-box" id="box6">
+                        <img src="assets/img/features6.png" alt="web dev">
+                        <div>
+                        <h4>Systems Checks</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Start Description Div -->
+            <div class="row feature-icons" data-aos="fade-up" id="webdev">
+                <h3>Website Design & Development</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/webdev.jpg" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up">
+                      <i class="ri-ie-line"></i>
+                       <div>
+                            <h4>Business Presence</h4>
+                            <p>Take Your Business Presence To The Next Level With Professional Website Design Service</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <i class="ri-stack-line"></i>
+                        <div>
+                            <h4>The Best IT Service You Can Trust</h4>
+                            <p>Get everything you need to launch your website and put your business online with all-in-one package. </p>
+                            <br>
+                            <div><a class="btn btn-primary" href="tech/" target=
+                            'blank'>Get A Website</a></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- End Description Div -->
+
+            <!-- Start Description Div -->
+            <div class="row feature-icons" data-aos="fade-up" id="home_automate">
+                <h3>Home Automation & Control Systems</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/homeautomate.jpg" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up">
+                      <i class="ri-tv-2-line"></i>
+                        <div>
+                            <h4>WANT TO TAKE CONTROL AND LIVE SMART?</h4>
+                            <p>Get Music, video, security systems, lighting and blinds, central heating and air, heated flooring, and more may all be controlled by a comprehensive home automation system</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                      <i class="ri-home-smile-fill"></i>
+                        <div>
+                            <h4>EFFORTLESS MANAGEMENT </h4>
+                            <p>From a simple touch-panel, your smartphone, or your iPad, you can effortlessly manage what you’re listening to.</p>
+                            <br>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- End Description Div -->
+
+            <!-- Start Description Div -->
+            <div class="row feature-icons" data-aos="fade-up" id="network_config">
+                <h3>Network Design, Configuration, Support & Security</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/network.jpg" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up">
+                        <i class="ri-line-chart-line"></i>
+                        <div>
+                            <h4>Get Your Demands On Network Infrastructure.</h4>
+                            <p>Scantron Technology Solutions helps organizations build network infrastructure and implement IT changes while maximizing the value of their existing network environments.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <i class="ri-stack-line"></i>
+                        <div>
+                            <h4>Get Help With Your Network Infrastructure</h4>
+                            <p>We provide end-to-end IT assistance by working as an extension of your team, addressing everything from daily activities to strategic consulting needs.</p>
+                            <br>
+                            <div><a class="btn btn-primary" href="network/"  target='blank'>Make Us Your IT Providers</a></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- End Description Div -->
+
+            <!-- Start Description Div -->
+            <div class="row feature-icons" data-aos="fade-up" id="desktop_migrate">
+                <h3>Desktop Roll-Out & Migration</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/migrate.jpg" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up">
+                      <i class="ri-computer-line"></i>
+                        <div>
+                            <h4>Desktop Roll-Out & Migration Programs</h4>
+                            <p>Whether you are upgrading your on-premises data center, moving to a new office or implementing a hybrid-cloud strategy, the threat of business disruptions during the process can keep any IT team up at night. We can help.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <i class="ri-stack-line"></i>
+                        <div>
+                            <h4>Desktop Roll-Out & Migration Programs</h4>
+                            <p>Gatech has put together a project plan that you can easily customize to meet the needs of your organization and help you manage your desktop migration smoothly and efficiently.</p>
+                            <br>
+                            <div><a class="btn btn-primary" href="desktop/"  target='blank'>Contact Us</a></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- End Description Div -->
+
+            <!-- Start Description Div -->
+            <div class="row feature-icons" data-aos="fade-up" id="it_service">
+                <h3>IT Procurement Services</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/itservice.jpg" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up">
+                      <i class="ri-hard-drive-2-fill"></i>
+                        <div>
+                            <h4>Hardware And Software Procurement</h4>
+                            <p>In addition to our Managed IT support service, we can provide leading procurement services for all your hardware and software procurements.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <i class="ri-store-3-fill"></i>
+                        <div>
+                            <h4>Business Server Solutions</h4>
+                            <p>GATECH INTEGRATED SERVICES also specialize in sourcing leading server solutions from HP, IBM, and DELL, designed to satisfy small to medium business requirements.</p>
+                            <br>
+                            <div><a class="btn btn-primary" href="it/" target='blank'>Check other IT services we offer</a></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- End Description Div -->
+
+             <!-- Start Description Div -->
+             <div class="row feature-icons" data-aos="fade-up" id="sschecks">
+                <h3>Safety & Security Checks</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="assets/img/sscheck.jpg" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up">
+                      <i class="ri-file-shield-2-line"></i>
+                        <div>
+                            <h4>Safety Check-Ups</h4>
+                            <ul class="ul">
+                              <li>
+                                Security Audit
+                              </li>
+                              <br>
+                              <li>
+                                Critical Event Checks
+                              </li>
+                              <br>
+                              <li>
+                                Disk Growth Rate Check
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                      <i class="ri-file-shield-2-line"></i>
+                        <div>
+                            <h4>Safety Check-Ups</h4>
+                            <ul class="ul">
+                              <li>
+                                Periodic Backup Status Check
+                              </li>
+                              <li>
+                                Periodic Anti-Virus Definition Check
+                              </li>
+                              <li>
+                                Exchange Information Store Size Check
+                              </li>
+                            </ul>
+                            <br>
+                            <div><a class="btn btn-primary" href="sscheck/" target='blank'>Visit Site</a></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <!-- End Description Div -->
+        </div>
+
+    </div>
+    </section>
+    
+  
+    
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Partners</h2>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section>
+    
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7">
+
+            <div class="row gy-4">
+              <div class="col-md-4">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Suite 83, Terrace Wing, TBS Complex, Onikan Lagos, Nigeria.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+234 818 554 0793</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@gatechinfo.com</p>
+                </div>
+              </div>
+            
+            </div>
+
+          </div>
+
+          <div class="col-lg-5">
+            <form action="contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>\
+
+  </main>
+  
+  
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+            </a>
+            <p> GATECH INTEGRATED SERVICES is a Management Service Provider. Serving small and medium-sized businesses in Lagos, Nigeria. We offer professional consulting services, technical support, network design and project implementation services to a broad client base in oil and gas, education, finance and end-users.</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/GatechIntegratedServices/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/gatechint/#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/gatech-integrated/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#features">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="tech/">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="network/">Network Configuration</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="desktop/">Desktop Migration </a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="it/">IT Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="sscheck/">Security Checks</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Suite 83, Terrace Wing, TBS Complex, <br> Onikan Lagos, Nigeria.<br><br>
+              <strong>Phone:</strong> +234 818 554 0793<br>
+              <strong>Email:</strong>info@gatechinfo.com<br>
+            </p>
+
+          </div>
+        </div>
+        </div>
+        </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Gatech</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
